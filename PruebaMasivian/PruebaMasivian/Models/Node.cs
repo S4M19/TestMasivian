@@ -10,7 +10,7 @@ namespace PruebaMasivian.Models
         /// <summary>
         /// Contenido del nodo
         /// </summary>
-        public int data;
+        public int value;
 
         /// <summary>
         /// Direcciones del nodo
@@ -24,7 +24,7 @@ namespace PruebaMasivian.Models
 
         public Node()
         {
-            data = 0;
+            value = 0;
             branchRight = null;
             branchLeft = null;
             root = null;

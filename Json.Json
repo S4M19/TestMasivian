@@ -1,0 +1,17 @@
+/* Formato del Json para construir el árbol binario */
+// Método Api/BinaryTree/CreateBinaryTree
+{
+    "binaryTree": [
+      67, 39, 28, 44, 29, 76, 74, 85, 83, 87
+    ]
+}
+
+/* Formato del Json para construir el árbol binario y obtener el ancestro más común entre dos nodos */
+// Método Api/BinaryTree/ParentNode
+{
+  "binaryTree": [
+    67, 39, 28, 44, 29, 76, 74, 85, 83, 87
+  ],
+  "nodeOne": "44",
+  "nodeTwo": "85"    
+}
